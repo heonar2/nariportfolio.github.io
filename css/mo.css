@@ -1,0 +1,198 @@
+@media all and (max-width: 768px) {
+    header {
+        height: 50px;
+    }
+
+    .mo_menu {
+        padding: 30px;
+    }
+
+    .closed {
+        margin-bottom: 20px;
+    }
+
+    .closed .close {
+        font-size: 30px;
+    }
+
+    .mo_menu > li {
+        font-size: 18px;
+        line-height: 50px;
+    }
+
+    .mo_menu {
+        top: 50px;
+    }
+
+    /*섹션1*/
+
+    .in_sec {
+        padding: 50px 0 50px 0;
+    }
+
+    .in_sec > h2 {
+        font-size: 28px;
+    }
+
+    .in_box {
+        margin: 20px auto 0;
+    }
+
+    .photoFrame {
+        width: 260px;
+        height: 363px;
+    }
+
+    .question {
+        font-size: 130px;
+        top: 90px;
+    }
+
+    .cli {
+        font-size: 20px;
+        bottom: 115px;
+    }
+
+    .profileFrame {
+        width: 22rem;
+        height: 24rem;
+        margin-top: 20px;
+    }
+
+    /*섹션2*/
+
+    .in_sec2 {
+        width: calc(100vw - 44px);
+        padding: 50px 0;
+    }
+
+    .in_sec2 > h2 {
+        font-size: 28px;
+    }
+
+    .skill_box {
+        width: 332px;
+        height: 470px;
+        gap: 20px;
+    }
+
+    .skill1 {
+        gap: 20px;
+    }
+
+    .skill {
+        width: 156px;
+    }
+
+    .skill_img {
+        height: 155px;
+    }
+
+    .skill_name {
+        height: 48px;
+    }
+
+    /*섹션3*/
+
+    .tabmenu {
+        margin: 20px auto 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .tabcon {
+        width: calc(100vw - 40px);
+        height: 548px;
+    }
+
+    .container {
+        width: calc(100vw - 40px);
+        justify-content: center;
+    }
+
+    .left_con {
+        width: 300px;
+        height: 236px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .textbox {
+        margin-top: 10px;
+    }
+
+    .mainT {
+        font-size: 16px;
+    }
+
+    .direct {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .right_con {
+        width: 300px;
+        height: 252px;
+    }
+
+    .newtab {
+        height: 600px;
+    }
+
+    .tabimg {
+        height: 500px;
+    }
+
+    /*섹션4*/
+
+    .detailbox {
+        width: calc(100vw - 40px);
+        margin: 20px auto;
+    }
+
+    .big, .small {
+        width: 100%;
+    }
+
+    .motab {
+        height: auto;
+    }
+
+    .bigfont, .smallfont {
+        font-size: 28px;
+    }
+
+    /*섹션5*/
+
+    .contact {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    /*섹션6*/
+
+    .tha {
+        font-size: 65px;
+    }
+
+    .bye span {
+        display: block;
+        text-align: center;
+    }
+
+    /*푸터*/
+
+    footer {
+        height: 50px;
+    }
+
+    .in_foot div {
+        font-size: 14px;
+    }
+    
+}
