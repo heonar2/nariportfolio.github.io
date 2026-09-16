@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 140%;
+    letter-spacing: -2.5%;
+}
+
+a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    display: block;
+}

@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'RoundedFixedsys';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+#wrap {
+    width: 100%;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/background.png) no-repeat center / cover;
+    position: relative;
+}
+
+.intro_box {
+    width: calc(100vw - 100px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.introtxt {
+    width: 100%;
+    animation: bounce 0.5s ease-out alternate-reverse infinite;
+}
+
+@keyframes bounce {
+    100% {
+        transform: translateY(-20%);
+    }
+}
+
+.maintxt {
+    font-size: 13.020vw;
+    text-align: center;
+}
+
+.intro_btn {
+    width: 250px;
+    height: 80px;
+    border-radius: 30px;
+    border: 5px solid #15E2A8;
+    font-size: 48px;
+    letter-spacing: -2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #15E2A8;
+    padding: 19px 60px;
+    margin: 34px auto 0;
+    transition: 0.5s;
+}
+
+.intro_btn:hover {
+    background-color: #15E2A8;
+    color: #fff;
+    
+}
