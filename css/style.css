@@ -343,6 +343,8 @@ section {
     gap: 5px;
     cursor: pointer;
     color: #000;
+    position: relative;
+    z-index: 9999;
 }
 
 .design a:hover {
